@@ -1,64 +1,64 @@
 // 1.
 
-// import 'package:flutter/material.dart';
-//
-// void main() {
-//   runApp(const MyApp());
-// }
-//
-// class MyApp extends StatelessWidget {
-//   const MyApp({super.key});
-//
-//   // This widget is the root of your application.
-//   @override
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//       debugShowCheckedModeBanner: false,
-//       home: SafeArea(
-//         child: Scaffold(
-//           backgroundColor: const Color(0XFF7CB341),
-//           appBar: AppBar(
-//             backgroundColor: Colors.lightGreen,
-//             title: const Text(
-//               'My App',
-//               style: TextStyle(
-//                 color: Colors.white,
-//                 fontWeight: FontWeight.bold,
-//               ),
-//             ),
-//             centerTitle: true,
-//           ),
-//           body: Center(
-//             child: Container(
-//               height: 300,
-//               width: 300,
-//               decoration: const BoxDecoration(
-//                 color: Colors.green,
-//               ),
-//               alignment: Alignment.center,
-//               child: Container(
-//                 height: 250,
-//                 width: 250,
-//                 decoration: const BoxDecoration(
-//                   color: Colors.lightGreenAccent,
-//                 ),
-//                 alignment: Alignment.center,
-//                 child: const Text(
-//                   'oooo',
-//                   style: TextStyle(
-//                     color: Colors.black,
-//                     fontSize: 150,
-//                     letterSpacing: -45,
-//                   ),
-//                 ),
-//               ),
-//             ),
-//           ),
-//         ),
-//       ),
-//     );
-//   }
-// }
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: SafeArea(
+        child: Scaffold(
+          backgroundColor: const Color(0XFF7CB341),
+          appBar: AppBar(
+            backgroundColor: Colors.lightGreen,
+            title: const Text(
+              'My App',
+              style: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            centerTitle: true,
+          ),
+          body: Center(
+            child: Container(
+              height: 350,
+              width: 350,
+              decoration: const BoxDecoration(
+                color: Colors.green,
+              ),
+              alignment: Alignment.center,
+              child: Container(
+                height: 300,
+                width: 300,
+                decoration: const BoxDecoration(
+                  color: Colors.lightGreenAccent,
+                ),
+                alignment: Alignment.center,
+                child: const Text(
+                  'OOOO',
+                  style: TextStyle(
+                    color: Color(0xff597F2C),
+                    fontSize: 155,
+                    letterSpacing: -55,
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
 
 
 
@@ -234,55 +234,55 @@
 
 // 4.
 
-import 'package:flutter/material.dart';
-
-void main() {
-  runApp(
-    MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home: SafeArea(
-          child: Scaffold(
-            appBar: AppBar(
-              backgroundColor: Colors.brown,
-              title: const Text(
-                "Mashal",
-                style: TextStyle(
-                  color: Colors.white,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              centerTitle: true,
-            ),
-            body: Center(
-              child: Container(
-                height: 360,
-                width: 230,
-                decoration: const BoxDecoration(
-                    color: Colors.brown,
-                    border: Border.symmetric(
-                        vertical: BorderSide(
-                          color: Colors.white,
-                          width: 50,
-                        ),
-                        horizontal: BorderSide(
-                          color: Color(0XFF815B5B),
-                          width: 50,
-                        )
-                    )
-                ),
-                child: const Center(
-                  child: Text(
-                    '🔥',
-                    style: TextStyle(
-                      fontSize: 80,
-                      height: -5.6,
-                    ),
-                  ),
-                ),
-              ),
-            ),
-          ),
-        )
-    ),
-  );
-}
+// import 'package:flutter/material.dart';
+//
+// void main() {
+//   runApp(
+//     MaterialApp(
+//         debugShowCheckedModeBanner: false,
+//         home: SafeArea(
+//           child: Scaffold(
+//             appBar: AppBar(
+//               backgroundColor: Colors.brown,
+//               title: const Text(
+//                 "Mashal",
+//                 style: TextStyle(
+//                   color: Colors.white,
+//                   fontWeight: FontWeight.bold,
+//                 ),
+//               ),
+//               centerTitle: true,
+//             ),
+//             body: Center(
+//               child: Container(
+//                 height: 360,
+//                 width: 230,
+//                 decoration: const BoxDecoration(
+//                     color: Colors.brown,
+//                     border: Border.symmetric(
+//                         vertical: BorderSide(
+//                           color: Colors.white,
+//                           width: 50,
+//                         ),
+//                         horizontal: BorderSide(
+//                           color: Color(0XFF815B5B),
+//                           width: 50,
+//                         )
+//                     )
+//                 ),
+//                 child: const Center(
+//                   child: Text(
+//                     '🔥',
+//                     style: TextStyle(
+//                       fontSize: 80,
+//                       height: -5.6,
+//                     ),
+//                   ),
+//                 ),
+//               ),
+//             ),
+//           ),
+//         )
+//     ),
+//   );
+// }
